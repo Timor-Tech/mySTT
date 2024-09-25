@@ -87,15 +87,21 @@ To run the application:
 
 ## Project Structure
 
-- `client/`: React frontend application
-  - `src/`: Source files for the React app
-    - `App.jsx`: Main application component
-    - `VoiceToText.jsx`: Component handling voice recognition and transcription
-  - `vite.config.js`: Vite configuration file
-- `server/`: Node.js backend application
-  - `index.js`: Main server file
-  - `models/`: MongoDB models
-  - `routes/`: API routes
+project-root
+├── client/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── VoiceToText.jsx
+│ ├── index.html
+│ ├── package.json
+│ └── vite.config.js
+└── server/
+├── models/
+│ └── Transcript.js
+├── routes/
+│ └── transcripts.js
+├── index.js
+└── package.json
 
 ## API Documentation
 
