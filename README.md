@@ -87,21 +87,21 @@ To run the application:
 
 ## Project Structure
 
-project-root
-├── client/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── VoiceToText.jsx
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-└── server/
-    ├── models/
-    │   └── Transcript.js
-    ├── routes/
-    │   └── transcripts.js
-    ├── index.js
-    └── package.json
+- project-root/
+  - client/
+    - src/
+      - App.jsx
+      - VoiceToText.jsx
+    - index.html
+    - package.json
+    - vite.config.js
+  - server/
+    - models/
+      - Transcript.js
+    - routes/
+      - transcripts.js
+    - index.js
+    - package.json
 
 ## API Documentation
 
