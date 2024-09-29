@@ -89,19 +89,19 @@ To run the application:
 
 project-root
 ├── client/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ └── VoiceToText.jsx
-│ ├── index.html
-│ ├── package.json
-│ └── vite.config.js
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── VoiceToText.jsx
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
 └── server/
-├── models/
-│ └── Transcript.js
-├── routes/
-│ └── transcripts.js
-├── index.js
-└── package.json
+    ├── models/
+    │   └── Transcript.js
+    ├── routes/
+    │   └── transcripts.js
+    ├── index.js
+    └── package.json
 
 ## API Documentation
 
@@ -122,6 +122,10 @@ Contributions to this project are welcome. Please follow these steps:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`
 4. Push to the original branch: `git push origin feature-branch-name`
 5. Create the pull request
+
+## Credit
+
+Code written by [yatt-code](https://github.com/yatt-code)
 
 ## License
 
